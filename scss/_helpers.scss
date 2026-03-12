@@ -1,0 +1,49 @@
+@use "./variables";
+.space {
+  &__m-lr {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  &__p-t {
+    padding-top: 5.25rem;
+  }
+  &__p-b {
+    padding-bottom: 5.25rem;
+  }
+}
+
+.header2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  @include larger-screens(variables.$large-screen) {
+    font-size: 2.25rem;
+  }
+}
+.description {
+  text-align: center;
+  font-size: 1.02rem;
+  line-height: variables.$line-h;
+  margin-bottom: 3.125rem;
+  @include larger-screens(variables.$small-screen) {
+    font-size: 1.23rem;
+  }
+}
+
+.header3 {
+  text-align: center;
+  line-height: variables.$line-h;
+  margin-bottom: 1.375rem;
+  @include larger-screens(variables.$large-screen) {
+    text-align: start;
+    font-size: 1.5rem;
+  }
+}
+.item-description {
+  text-align: center;
+  line-height: variables.$line-h;
+  font-size: 1.01rem;
+  @include larger-screens(variables.$large-screen) {
+    text-align: start;
+    font-size: 1.25rem;
+  }
+}

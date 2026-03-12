@@ -1,0 +1,28 @@
+@import "./variables";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  color: variables.$darkGrey;
+  font-weight: 600;
+}
+p {
+  color: variables.$lightGrey;
+}
+button {
+  cursor: pointer;
+  border: 0;
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: $darkGrey;
+}
+li {
+  list-style-type: none;
+}
