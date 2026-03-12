@@ -74,4 +74,4 @@ Since the project uses a centralized SCSS variable system, implementing a Dark M
 While the current version uses smooth transitions, I could incorporate AOS (Animate On Scroll) or Intersection Observer API to trigger subtle fade-in effects as the user scrolls through the different feature sections (Track, Access, Supercharge).
 
 ## 🍿 Video
-...
+[...](https://github.com/user-attachments/assets/896b9b50-5577-4ccf-a41e-686f778f97f8)
